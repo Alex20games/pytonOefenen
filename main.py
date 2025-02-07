@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 
 # data
 studie_uren = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
-oefentoetsen = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
+oefentoetsen = np.array([2, 3, 3, 4, 5]).reshape(-1, 1)
 cijfers = np.array([3, 4.5, 5, 6.5, 8])
 
 # Combineer de twee variabelen tot een matrix van inputvariabelen
