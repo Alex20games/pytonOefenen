@@ -26,8 +26,8 @@ print("Voorspelde cijfers:", predictions)
 
 #  Plotten van voorspellingen en werkelijke gegevens
 fig, ax = plt.subplots()
-ax.scatter(range(len(cijfers)), cijfers, color='blue', label='Werkelijke cijfers')
-ax.plot(range(len(cijfers)), predictions, color='red', label='Voorspelde cijfers')
+ax.scatter(range(len(cijfers)), cijfers, color='purple', label='Werkelijke cijfers')
+ax.plot(range(len(cijfers)), predictions, color='green', label='Voorspelde cijfers')
 plt.xlabel('Studenten (volgorde)')
 plt.ylabel('Cijfers')
 plt.legend()
